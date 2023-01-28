@@ -8,8 +8,8 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
-		// Add the repository name here
 		paths: {
+			// Replace with the name of your repository
 			base: '/example-svelte-deployment'
 		},
 		adapter: adapter({
