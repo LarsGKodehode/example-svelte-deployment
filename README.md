@@ -36,3 +36,20 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## Deploy to GitHub Pages
+
+To deploy to GitHub pages
+
+1. Create a repository on GitHub pages
+2. Link this local repository to the one created.
+3. Update the URL in `svelteconfig.js` with the name of your GitHub repository
+4. Run the deploy script from packages.json
+```bash
+npm run deploy
+```
+or
+```bash
+yarn deploy
+```
+5. Go to the repository page and check that the GitHub actions completes
